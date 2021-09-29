@@ -1,0 +1,2 @@
+class TransactionDatesController < ApplicationController
+end
