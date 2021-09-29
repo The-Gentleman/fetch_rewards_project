@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_09_29_060957) do
+ActiveRecord::Schema.define(version: 2021_09_29_062838) do
 
   create_table "payers", force: :cascade do |t|
     t.string "name"
@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2021_09_29_060957) do
   end
 
   create_table "points", force: :cascade do |t|
-    t.integer "point_count"
+    t.integer "point_amount"
     t.integer "payer_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
