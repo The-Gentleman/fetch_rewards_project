@@ -1,0 +1,4 @@
+<% @payers.map do |payer| %>
+    <h3><%= link_to payer.name, payer_path(payer.id) %></h3>
+    <br>
+<% end %>
