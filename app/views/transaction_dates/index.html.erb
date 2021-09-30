@@ -1,7 +1,0 @@
-<% @transaction_dates.map do |date| %>
-    <% point = Point.find{|point| date.point_id == point.id} %>
-    
-    <p><%= point.payer.name%> <%= point.point_amount %></p>
-    <br>
-<% end %>
-    
