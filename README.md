@@ -57,6 +57,6 @@ What I need to do:
 
 
 9/30 TO DO
-[] Display current balances 
+[X] Display current balances 
 [] Create add points functionality 
 
