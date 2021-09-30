@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
+  root 'payers#index'
   # Id like this to display balances
-  get '/payers/balances', to: 'points#index', as: :balances
+  get '/payers/balances', to: 'points#balance', as: :balances
 
 
   resources :payers, only: [:index, :show, :balances]
