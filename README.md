@@ -50,7 +50,13 @@ What I have now:
 Models and migrations that have AR associations that are functional
 A seeded DB
 
+What I need to do:
+-create an add transaction page
+-create a spend points page
+-create a payers and balances page
+
+
 9/30 TO DO
-[] Display clickable names on home screen
-[] then be taken to that payers page where their points are displayed
+[] Display current balances 
+[] Create add points functionality 
 
