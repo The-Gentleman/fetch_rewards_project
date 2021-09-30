@@ -1,6 +1,6 @@
 class PointsController < ApplicationController
-
-    def index 
+    
+    def balance
         @points = Point.all
     end 
 end
